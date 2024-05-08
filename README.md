@@ -22,6 +22,7 @@
 14. [Diseño de PCDB](#id14)
 15. [Integrantes](#id15)
 16. [Docentes del curso](#id16)
+17. [Referencias bibliográficas](#id17)
    
 ***
 
@@ -53,8 +54,16 @@ Una estrategia para reducir el número de derivaciones consiste en excluir ciert
 
 # 3.  Problemática<a name="id3"></a>
 
-<p align="justify">
+## 3.1 Problemática general
 
+<p align="justify">
+La escasez de especialistas en cardiología capacitados para interpretar electrocardiogramas (ECG) en la región Pasco dificulta el diagnóstico y posterior tratamiento oportuno de enfermedades cardiacas.
+</p>
+
+# 3.2 Problemática específica
+
+<p align="justify">
+La falta de herramientas tecnológicas que integren el potencial del Machine Learning y el aprendizaje automático para capacitar a más especialistas en cardiología en la interpretación de electrocardiogramas (ECG) en la región Pasco, plantea un desafío crítico en el diagnóstico y posteriormente en el tratamiento oportuno de enfermedades cardiacas.
 </p>
 
 
