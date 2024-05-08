@@ -60,7 +60,7 @@ Una estrategia para reducir el número de derivaciones consiste en excluir ciert
 La escasez de especialistas en cardiología capacitados para interpretar electrocardiogramas (ECG) en la región Pasco dificulta el diagnóstico y posterior tratamiento oportuno de enfermedades cardiacas.
 </p>
 
-# 3.2 Problemática específica
+## 3.2 Problemática específica
 
 <p align="justify">
 La falta de herramientas tecnológicas que integren el potencial del Machine Learning y el aprendizaje automático para capacitar a más especialistas en cardiología en la interpretación de electrocardiogramas (ECG) en la región Pasco, plantea un desafío crítico en el diagnóstico y posteriormente en el tratamiento oportuno de enfermedades cardiacas.
