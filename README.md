@@ -50,15 +50,37 @@ Una estrategia para reducir el número de derivaciones consiste en excluir ciert
 
 Según cifras del Instituto Nacional Cardiovascular (INCOR) la enfermedad cardiovascular representa la segunda causa de muerte en el Perú, con una incidencia del 20% [1].  Esta condición de salud se posiciona como una preocupación significativa en el país. Sin embargo, a nivel global, la gravedad de esta enfermedad es aún más pronunciada, ya que según la Organización Mundial de la Salud (OMS) constituye la principal causa de fallecimiento, con aproximadamente el 30% de las muertes registradas atribuidas a problemas cardiovasculares [1].
 
+</p>
+
+<p align="justify">
+   
 Asimismo, la Sociedad Peruana de Cardiología (SOPECARD) destaca que en nuestro país se reportan diariamente más de 100 casos de infarto agudo al miocardio [2]. Esta condición médica representa una de las emergencias más comunes, con consecuencias significativas para la salud pública. Se estima que aproximadamente una tercera parte de los pacientes que experimentan este tipo de evento fatalmente no logran reconocer los síntomas a tiempo o no pueden acceder a atención médica oportuna. Esto conlleva a un número considerable de fallecimientos tanto en los hogares como en el trayecto hacia centros de atención sanitaria [2].
 
+</p>
+
+<p align="justify">
+   
 El monitoreo efectivo de estos pacientes en hospitales y centros de salud requiere la utilización de equipos médicos de alto costo, los cuales solo pueden ser operados por personal médico debidamente capacitado. Sin embargo, en el contexto peruano, la disponibilidad de dicho personal es limitada, con solo 42 médicos especialistas por cada 100,000 habitantes [3]. Esta escasez de personal capacitado representa un desafío significativo para el adecuado seguimiento y atención de los pacientes en todo el país.
+
+</p>
+
+<p align="justify">
 
 Además, otro factor importante a considerar es la ubicación geográfica de los centros de salud, ya que esto influye en la cantidad de personal capacitado disponible en cada localidad. Las áreas remotas y rurales, en particular, pueden enfrentar una mayor dificultad para acceder a profesionales médicos debidamente formados, lo que puede afectar negativamente la calidad de la atención médica y el monitoreo de los pacientes. Esto se refleja claramente en los datos proporcionados por el Colegio Médico del Perú (CMP). Actualmente, el país cuenta con un total de 106,595 médicos colegiados, de los cuales 1,292 tienen una especialización en cardiología. Es importante destacar que de estos médicos especializados, 735 están ubicados en Lima [4]. En contraste, en la región de Pasco solo se cuenta con dos especialistas, lo cual es una cifra muy preocupante [4].
 
+</p>
+
+<p align="justify">
+
 También es importante tener en cuenta que, de acuerdo con el reporte de inspección de carencias emitido por el Ministerio de Salud (MINSA) hasta el año 2023, de los 247 hospitales activos a nivel nacional, 225 carecen de una infraestructura y equipamiento adecuados, lo que implica que no alcanzan los estándares mínimos requeridos. Asimismo, la mayoría de los centros de atención primaria de salud, que suman un total de 8,783, también muestran condiciones deficientes. De esta cifra, 8,315, es decir, el 95%, no cumplen con los requisitos básicos para proporcionar un servicio de calidad a los pacientes [5].
 
+</p>
+
+<p align="justify">
+
 En gran parte esto se debe a que el mercado de equipamiento médico en Perú depende principalmente de importaciones debido a la producción nacional marginal. En 2019, las importaciones superaron los 351 millones de USD, con un total de 1,605 millones de USD en el período 2015-2019 y un crecimiento promedio del 11% durante ese lapso. Sin embargo, el ámbito de la electromedicina, en donde está incluido la exportación de electrocardiógrafos, experimentaron disminuciones en las importaciones en comparación con 2015. La falta de importaciones de electrocardiógrafos en Perú refleja una limitación en la disponibilidad de este equipo médico crucial en el país. La escasez de estos dispositivos tiene varias implicaciones negativas en el sistema de salud como limitaciones en el diagnóstico y monitoreo de las enfermedades cardiacas e incrementar aún más la brecha en el acceso de atención médica en las zonas rurales [6].
+
+</p>
 
 [1] “Enfermedades al corazón son la segunda causa de muerte en el Perú”, Essalud, 12-mar-2022. [En línea]. Disponible en: http://noticias.essalud.gob.pe/?inno-noticia=enfermedades-al-corazon-son-la-segunda-causa-de-muerte-en-el-peru. [Consultado: 03-abr-2024].
 
