@@ -1,4 +1,7 @@
 # LECG : Learning ECG
+<p align="justify">
+¡Bienvenidos! Somos un grupo de estudiantes de 7mo ciclo de la carrera de Ingeniería Biomédica de la PUCP y UPCH. Queremos compartir nuestro proyecto de Introducción a Señales Biomédicas con usted, en este repositorio podrá encontrar toda la información sobre nuestro dispositivo.
+</p>
 
 ***
 
@@ -21,3 +24,17 @@
 16. [Docentes del curso](#id16)
    
 ***
+
+# 1. Introducción<a name="id1"></a>
+
+
+# 2.  Contexto<a name="id2"></a>
+
+
+# 3.  Problemática<a name="id3"></a>
+
+
+
+# 4. Estado de arte<a name="id4"></a>
+
+
