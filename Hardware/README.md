@@ -28,7 +28,7 @@ Tal como se ha mencionado previamente el LECG es un dispositivo de aprendizaje q
 # 2. Caja negra<a name="id2"></a>
 
 <p align="center">
-  <img src="https://github.com/sofia-is-a-panda/LECG/assets/164522281/4f029072-8cce-45a6-be94-54084dd39210" alt="fotog" width="900" height="200"/>
+  <img src="https://github.com/sofia-is-a-panda/LECG/assets/164522281/4f029072-8cce-45a6-be94-54084dd39210" alt="fotog" width="900" height="800"/>
 </p>
 <p align="center"><i>Figura 1. Caja negra del LECG</i></p><br>
 
