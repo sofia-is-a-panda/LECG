@@ -99,13 +99,10 @@ La falta de herramientas tecnológicas que integren el potencial del Machine Lea
 
 # 5. Propuesta de solución<a name="id5"></a>
 <p align="justify">
-   El dispositivo LECG está diseñado para ayudar a los estudiantes en la interpretación de los
-electrocardiogramas (ECG). Este dispositivo utiliza un sensor para tomar las mediciones del
-ECG, luego envía los datos a un servidor local. A través de técnicas de aprendizaje
-automático (machine learning), el servidor identifica si los datos del paciente muestran signos
-de fibrilación auricular u otras anomalías, o si el ECG está dentro de los parámetros
-normales. Si el resultado no puede ser claramente determinado, se muestra una opción
-correspondiente.
+   El dispositivo LECG está diseñado para ayudar a los estudiantes en la interpretación de los electrocardiogramas (ECG). Este dispositivo utiliza un sensor para tomar las mediciones del ECG, luego envía los datos a un servidor local. A través de técnicas de aprendizaje automático (machine learning), el servidor identifica si los datos del paciente muestran signos de fibrilación auricular u otras anomalías, o si el ECG está dentro de los parámetros normales. Si el resultado no puede ser claramente determinado, se muestra una opción correspondiente.
+
+Los estudiantes pueden visualizar los datos del paciente y seleccionar la opción que consideren correcta. Si eligen correctamente, recibirán un mensaje de felicitaciones y podrán ganar puntos en el proceso de aprendizaje.
+
 </p>
 
 # 6. Características técnicas<a name="id6"></a>
