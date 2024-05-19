@@ -13,16 +13,9 @@
 5. [Propuesta de solución](#id5)
 6. [Características técnicas](#id6)
 7. [Entrevistas a stakeholders](#id7)
-8. [Caja negra](#id8)
-9. [Estructura de funciones](#id9)
-10. [Diagrama de bloques](#id10)
-11. [Matriz morfológica](#id11)
-12. [Alternativas de solución](#id12)
-13. [Esquemáticos](#id13)
-14. [Diseño de PCB](#id14)
-15. [Integrantes](#id15)
-16. [Docentes del curso](#id16)
-17. [Referencias bibliográficas](#id17)
+8. [Integrantes](#id8)
+9. [Docentes del curso](#id9)
+10. [Referencias bibliográficas](#id10)
    
 ***
 
