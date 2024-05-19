@@ -116,7 +116,13 @@ correspondiente.
 </p>
 
 # 6. Características técnicas<a name="id6"></a>
-<p align="justify">
 
+<p align="justify">
+- Toma de mediciones fiable y con precisión
+- Transmisión de datos segura
+- Análisis inteligente con Machine Learning 
+- Interfaz amigable para el usuario
+- Oportunidad de aprendizaje interactivo
+- Compacto y liviano
 </p>
 
