@@ -18,6 +18,21 @@
 10. [Referencias bibliográficas](#id10)
    
 ***
+# Resumen
+
+<p align="justify">
+LECG (Learn ECG) aborda el desafío de mejorar las habilidades de interpretación de electrocardiogramas (ECG) en entornos con recursos limitados, como Pasco, Perú. Aprovechando la tecnología accesible y las técnicas avanzadas de aprendizaje automático, LECG permite a estudiantes y profesionales médicos practicar y perfeccionar sus capacidades diagnósticas de manera efectiva. La interfaz intuitiva basada en Python apoya la interacción del usuario, proporcionando retroalimentación detallada y elementos de gamificación para fomentar el aprendizaje activo. Validado con alta sensibilidad y especificidad en la detección de fibrilación auricular utilizando un clasificador SVM con núcleo RBF, el proyecto demuestra avances significativos en la aplicación de tecnología para la educación médica y la mejora del cuidado cardiovascular.
+</p>
+
+# Motivación
+
+<p align="justify">
+En el Perú, las enfermedades cardiovasculares representan una de las principales causas de muerte, lo que resalta la necesidad urgente de mejorar la formación y habilidades de diagnóstico en cardiología. Las disparidades en el acceso a especialistas y tecnología médica entre las áreas urbanas y rurales, como Pasco, agravan esta situación. La pandemia ha exacerbado estos desafíos, limitando las oportunidades de aprendizaje práctico y efectivo en la interpretación de electrocardiogramas (ECG) para los estudiantes de medicina.
+
+Frente a este contexto, surge la necesidad de desarrollar soluciones innovadoras que aborden estas brechas y fortalezcan las capacidades diagnósticas de los futuros profesionales de salud. LECG (Learn ECG) se propone como una herramienta educativa revolucionaria que utiliza tecnología accesible y técnicas avanzadas de aprendizaje automático para proporcionar una plataforma de aprendizaje interactiva y efectiva. Al combinar elementos de gamificación y retroalimentación detallada, LECG no solo mejora la formación académica, sino que también contribuye a la detección temprana y precisa de anomalías cardíacas, como la fibrilación auricular.
+
+Esta iniciativa no solo busca mejorar la educación médica en entornos con recursos limitados, sino también contribuir significativamente a la atención cardiovascular, salvando potencialmente numerosas vidas al capacitar mejor a los profesionales de la salud para enfrentar los desafíos clínicos del futuro.
+</p>
 
 # 1. Introducción<a name="id1"></a>
 
@@ -75,22 +90,20 @@ En gran parte esto se debe a que el mercado de equipamiento médico en Perú dep
 
 [6] E. Mercado De Equipamiento Y Material Médico En Perú, “EL ESTUDIO DE MERCADO,” 2020. [En línea]. Disponible en: https://www.icex.es/content/dam/es/icex/oficinas/065/documentos/2021/02/documentos-anexos/DOC2021871587.pdf
 
+[7] Ministerio de Salud (MINSA), “Diagnóstico de brechas de infraestructura o acceso de servicios del sector salud”. Disponible en: https://www.minsa.gob.pe/Recursos/OTRANS/08Proyectos/2022/Diagnostico-Infraestructura-Sector-Salud-2024-2026.pdf. [Consultado: 02-jul-2024].
+
+
+
 </p>
 
 
 
 # 3.  Problemática<a name="id3"></a>
 
-## 3.1 Problemática general
-
 <p align="justify">
-La escasez de especialistas en cardiología capacitados para interpretar electrocardiogramas (ECG) en la región Pasco dificulta el diagnóstico y posterior tratamiento oportuno de enfermedades cardiacas.
-</p>
+La región de Pasco enfrenta una grave falta de acceso a especialistas y a tecnología como los (ECG), lo que, junto con una infraestructura médica inadecuada, complica el tratamiento y diagnóstico de enfermedades cardíacas y obstaculiza el acceso a una atención cardiovascular de calidad [7]. Además, los futuros profesionales de la salud demandan una plataforma de enseñanza que facilite un aprendizaje dinámico en la interpretación de ECG.
+Es por ello que hemos buscado distintos estudios sobre cómo podríamos abordar esta problemática general. Encontramos que, actualmente, se están desarrollando algoritmos de aprendizaje automático para identificar la fibrilación auricular con éxito, lo cual puede ser una opción para solucionar nuestro problema. En la revisión de nuestro estado del arte, descubrimos que ya existen dispositivos que integran el aprendizaje automático para facilitar el diagnóstico de anomalías como la fibrilación auricular (FA); sin embargo, ninguno de ellos está enfocado en la enseñanza como tal.
 
-## 3.2 Problemática específica
-
-<p align="justify">
-La falta de herramientas tecnológicas que integren el potencial del Machine Learning y el aprendizaje automático para capacitar a más especialistas en cardiología en la interpretación de electrocardiogramas (ECG) en la región Pasco, plantea un desafío crítico en el diagnóstico y posteriormente en el tratamiento oportuno de enfermedades cardiacas.
 </p>
 
 
@@ -99,18 +112,17 @@ La falta de herramientas tecnológicas que integren el potencial del Machine Lea
 
 # 5. Propuesta de solución<a name="id5"></a>
 <p align="justify">
-   El dispositivo LECG está diseñado para ayudar a los estudiantes en la interpretación de los electrocardiogramas (ECG). Este dispositivo utiliza un sensor para tomar las mediciones del ECG, luego envía los datos a un servidor local. A través de técnicas de aprendizaje automático (machine learning), el servidor identifica si los datos del paciente muestran signos de fibrilación auricular u otras anomalías, o si el ECG está dentro de los parámetros normales. Si el resultado no puede ser claramente determinado, se muestra una opción correspondiente.
-
-Los estudiantes pueden visualizar los datos del paciente y seleccionar la opción que consideren correcta. Si eligen correctamente, recibirán un mensaje de felicitaciones y podrán ganar puntos en el proceso de aprendizaje.
-
+En este contexto, es esencial desarrollar herramientas y dispositivos que faciliten la práctica y el aprendizaje de la interpretación de ECG para profesionales de salud y estudiantes de medicina, especialmente en áreas con recursos limitados como Pasco. El proyecto LECG pretende abordar esta necesidad proporcionando un dispositivo que no solo mide y transmite datos de ECG a un servidor local, sino que también emplea técnicas de aprendizaje automático para identificar posibles anomalías, como la fibrilación auricular. Esto permite a los estudiantes practicar y perfeccionar sus habilidades de diagnóstico.
 </p>
 
 # 6. Características técnicas<a name="id6"></a>
 
-- Toma de mediciones fiable y con precisión
-- Transmisión de datos segura
-- Análisis inteligente con Machine Learning 
-- Interfaz amigable para el usuario
-- Oportunidad de aprendizaje interactivo
-- Compacto y liviano
+El dispositivo LECG presenta las siguientes características técnicas:
+* Precisión en la toma de mediciones: Utiliza dos AD8232 para obtener mediciones precisas del ECG del paciente, garantizando que los datos recopilados sean confiables y exactos.
+* Transmisión de datos segura: Los datos obtenidos se envían de manera segura a un servidor local, asegurando la privacidad y confidencialidad de la información del paciente.
+* Análisis avanzado con aprendizaje automático: En el servidor local, los datos de ECG son analizados mediante técnicas avanzadas de aprendizaje automático, capaces de identificar patrones y anomalías, como la fibrilación auricular.
+* Interfaz amigable para el usuario: Los resultados del análisis se presentan de manera clara y comprensible a través de una interfaz intuitiva, permitiendo a los estudiantes visualizar los datos del paciente y recibir recomendaciones sobre posibles diagnósticos.
+* Oportunidad de aprendizaje interactivo: Los estudiantes pueden participar activamente en el proceso de aprendizaje, seleccionando la opción de diagnóstico que consideren correcta basada en la información proporcionada. Reciben retroalimentación positiva por respuestas correctas y pueden acumular puntos para su progreso educativo.
+
+En este proyecto, nos enfocaremos en el desarrollo y las capacidades del software (nos enfocamos en los puntos 2, 3, 4 y 5), dado que el diseño y construcción del dispositivo se abordaron en un proyecto separado. 
 
