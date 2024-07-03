@@ -9,13 +9,10 @@
 1. [Introducción](#id1)
 2. [Contexto](#id2)
 3. [Problemática](#id3)
-4. [Estado de arte](#id4)
-5. [Propuesta de solución](#id5)
-6. [Características técnicas](#id6)
-7. [Entrevistas a stakeholders](#id7)
-8. [Integrantes](#id8)
-9. [Docentes del curso](#id9)
-10. [Referencias bibliográficas](#id10)
+4. [Propuesta de solución](#id5)
+5. [Características técnicas](#id6)
+6. [Docentes del curso](#id9)
+7. [Referencias bibliográficas](#id10)
    
 ***
 # Resumen
@@ -78,6 +75,41 @@ También es importante tener en cuenta que, de acuerdo con el reporte de inspecc
 En gran parte esto se debe a que el mercado de equipamiento médico en Perú depende principalmente de importaciones debido a la producción nacional marginal. En 2019, las importaciones superaron los 351 millones de USD, con un total de 1,605 millones de USD en el período 2015-2019 y un crecimiento promedio del 11% durante ese lapso. Sin embargo, el ámbito de la electromedicina, en donde está incluido la exportación de electrocardiógrafos, experimentaron disminuciones en las importaciones en comparación con 2015. La falta de importaciones de electrocardiógrafos en Perú refleja una limitación en la disponibilidad de este equipo médico crucial en el país. La escasez de estos dispositivos tiene varias implicaciones negativas en el sistema de salud como limitaciones en el diagnóstico y monitoreo de las enfermedades cardiacas e incrementar aún más la brecha en el acceso de atención médica en las zonas rurales [6].
 </p>
 
+# 3.  Problemática<a name="id3"></a>
+
+<p align="justify">
+La región de Pasco enfrenta una grave falta de acceso a especialistas y a tecnología como los (ECG), lo que, junto con una infraestructura médica inadecuada, complica el tratamiento y diagnóstico de enfermedades cardíacas y obstaculiza el acceso a una atención cardiovascular de calidad [7]. Además, los futuros profesionales de la salud demandan una plataforma de enseñanza que facilite un aprendizaje dinámico en la interpretación de ECG.
+Es por ello que hemos buscado distintos estudios sobre cómo podríamos abordar esta problemática general. Encontramos que, actualmente, se están desarrollando algoritmos de aprendizaje automático para identificar la fibrilación auricular con éxito, lo cual puede ser una opción para solucionar nuestro problema. En la revisión de nuestro estado del arte, descubrimos que ya existen dispositivos que integran el aprendizaje automático para facilitar el diagnóstico de anomalías como la fibrilación auricular (FA); sin embargo, ninguno de ellos está enfocado en la enseñanza como tal.
+
+</p>
+
+# 4. Propuesta de solución<a name="id5"></a>
+<p align="justify">
+En este contexto, es esencial desarrollar herramientas y dispositivos que faciliten la práctica y el aprendizaje de la interpretación de ECG para profesionales de salud y estudiantes de medicina, especialmente en áreas con recursos limitados como Pasco. El proyecto LECG pretende abordar esta necesidad proporcionando un dispositivo que no solo mide y transmite datos de ECG a un servidor local, sino que también emplea técnicas de aprendizaje automático para identificar posibles anomalías, como la fibrilación auricular. Esto permite a los estudiantes practicar y perfeccionar sus habilidades de diagnóstico.
+</p>
+
+# 5. Características técnicas<a name="id6"></a>
+
+<p align="justify">
+El dispositivo LECG presenta las siguientes características técnicas:
+* Precisión en la toma de mediciones: Utiliza dos AD8232 para obtener mediciones precisas del ECG del paciente, garantizando que los datos recopilados sean confiables y exactos.
+* Transmisión de datos segura: Los datos obtenidos se envían de manera segura a un servidor local, asegurando la privacidad y confidencialidad de la información del paciente.
+* Análisis avanzado con aprendizaje automático: En el servidor local, los datos de ECG son analizados mediante técnicas avanzadas de aprendizaje automático, capaces de identificar patrones y anomalías, como la fibrilación auricular.
+* Interfaz amigable para el usuario: Los resultados del análisis se presentan de manera clara y comprensible a través de una interfaz intuitiva, permitiendo a los estudiantes visualizar los datos del paciente y recibir recomendaciones sobre posibles diagnósticos.
+* Oportunidad de aprendizaje interactivo: Los estudiantes pueden participar activamente en el proceso de aprendizaje, seleccionando la opción de diagnóstico que consideren correcta basada en la información proporcionada. Reciben retroalimentación positiva por respuestas correctas y pueden acumular puntos para su progreso educativo.
+
+En este proyecto, nos enfocaremos en el desarrollo y las capacidades del software (nos enfocamos en los puntos 2, 3, 4 y 5), dado que el diseño y construcción del dispositivo se abordaron en un proyecto separado. 
+</p>
+
+# 6. Principales hallazgos
+
+<p align="justify">
+El proyecto LECG (Learn ECG) ha demostrado avances significativos en varios aspectos clave. En primer lugar, se desarrolló un sistema de aprendizaje automático utilizando un clasificador SVM con kernel RBF, el cual alcanzó una alta sensibilidad del 96.3% y una especificidad del 97.7% en la detección de fibrilación auricular. Estos resultados están en línea con los estudios previos y validan la efectividad del modelo. Además, la interfaz intuitiva basada en Python permitió una interacción amigable para el usuario, facilitando la visualización en tiempo real de los datos de ECG y proporcionando retroalimentación inmediata y detallada. La implementación de elementos de gamificación no solo incentivó el aprendizaje activo, sino que también mejoró la retención de conocimientos entre los usuarios. Finalmente, las pruebas realizadas con el dispositivo LECG en conjunto con señales del Prosim Fluke confirmaron su capacidad para diferenciar eficazmente entre señales normales y aquellas con fibrilación auricular, consolidando así su potencial como una herramienta educativa y diagnóstica en entornos con recursos limitados como Pasco, Perú.
+</p>
+
+# 7. Referencias
+
+<p align="justify">
 [1] “Enfermedades al corazón son la segunda causa de muerte en el Perú”, Essalud, 12-mar-2022. [En línea]. Disponible en: http://noticias.essalud.gob.pe/?inno-noticia=enfermedades-al-corazon-son-la-segunda-causa-de-muerte-en-el-peru. [Consultado: 03-abr-2024].
 
 [2] K. Ramírez, “El 85% de peruanos que sufre un infarto al miocardio sobrevive al año si tienen un tratamiento oportuno”, Divulga Científica, 17-ene-2024. [En línea]. Disponible en: https://divulga.cientifica.edu.pe/nuestra-ciencia/el-85-de-peruanos-que-sufre-un-infarto-al-miocardio-sobrevive-al-ano-si-tienen-un-tratamiento-oportuno/. [Consultado: 03-abr-2024].
@@ -91,38 +123,4 @@ En gran parte esto se debe a que el mercado de equipamiento médico en Perú dep
 [6] E. Mercado De Equipamiento Y Material Médico En Perú, “EL ESTUDIO DE MERCADO,” 2020. [En línea]. Disponible en: https://www.icex.es/content/dam/es/icex/oficinas/065/documentos/2021/02/documentos-anexos/DOC2021871587.pdf
 
 [7] Ministerio de Salud (MINSA), “Diagnóstico de brechas de infraestructura o acceso de servicios del sector salud”. Disponible en: https://www.minsa.gob.pe/Recursos/OTRANS/08Proyectos/2022/Diagnostico-Infraestructura-Sector-Salud-2024-2026.pdf. [Consultado: 02-jul-2024].
-
-
-
 </p>
-
-
-
-# 3.  Problemática<a name="id3"></a>
-
-<p align="justify">
-La región de Pasco enfrenta una grave falta de acceso a especialistas y a tecnología como los (ECG), lo que, junto con una infraestructura médica inadecuada, complica el tratamiento y diagnóstico de enfermedades cardíacas y obstaculiza el acceso a una atención cardiovascular de calidad [7]. Además, los futuros profesionales de la salud demandan una plataforma de enseñanza que facilite un aprendizaje dinámico en la interpretación de ECG.
-Es por ello que hemos buscado distintos estudios sobre cómo podríamos abordar esta problemática general. Encontramos que, actualmente, se están desarrollando algoritmos de aprendizaje automático para identificar la fibrilación auricular con éxito, lo cual puede ser una opción para solucionar nuestro problema. En la revisión de nuestro estado del arte, descubrimos que ya existen dispositivos que integran el aprendizaje automático para facilitar el diagnóstico de anomalías como la fibrilación auricular (FA); sin embargo, ninguno de ellos está enfocado en la enseñanza como tal.
-
-</p>
-
-
-# 4. Estado de arte<a name="id4"></a>
-
-
-# 5. Propuesta de solución<a name="id5"></a>
-<p align="justify">
-En este contexto, es esencial desarrollar herramientas y dispositivos que faciliten la práctica y el aprendizaje de la interpretación de ECG para profesionales de salud y estudiantes de medicina, especialmente en áreas con recursos limitados como Pasco. El proyecto LECG pretende abordar esta necesidad proporcionando un dispositivo que no solo mide y transmite datos de ECG a un servidor local, sino que también emplea técnicas de aprendizaje automático para identificar posibles anomalías, como la fibrilación auricular. Esto permite a los estudiantes practicar y perfeccionar sus habilidades de diagnóstico.
-</p>
-
-# 6. Características técnicas<a name="id6"></a>
-
-El dispositivo LECG presenta las siguientes características técnicas:
-* Precisión en la toma de mediciones: Utiliza dos AD8232 para obtener mediciones precisas del ECG del paciente, garantizando que los datos recopilados sean confiables y exactos.
-* Transmisión de datos segura: Los datos obtenidos se envían de manera segura a un servidor local, asegurando la privacidad y confidencialidad de la información del paciente.
-* Análisis avanzado con aprendizaje automático: En el servidor local, los datos de ECG son analizados mediante técnicas avanzadas de aprendizaje automático, capaces de identificar patrones y anomalías, como la fibrilación auricular.
-* Interfaz amigable para el usuario: Los resultados del análisis se presentan de manera clara y comprensible a través de una interfaz intuitiva, permitiendo a los estudiantes visualizar los datos del paciente y recibir recomendaciones sobre posibles diagnósticos.
-* Oportunidad de aprendizaje interactivo: Los estudiantes pueden participar activamente en el proceso de aprendizaje, seleccionando la opción de diagnóstico que consideren correcta basada en la información proporcionada. Reciben retroalimentación positiva por respuestas correctas y pueden acumular puntos para su progreso educativo.
-
-En este proyecto, nos enfocaremos en el desarrollo y las capacidades del software (nos enfocamos en los puntos 2, 3, 4 y 5), dado que el diseño y construcción del dispositivo se abordaron en un proyecto separado. 
-
